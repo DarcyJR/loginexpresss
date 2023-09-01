@@ -1,0 +1,62 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    width: 100%;
+    color: #0794f1;
+}
+
+.container{
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 5px 5px rgb(77, 77, 77);
+}
+
+form input, button{
+    font-size: 30px;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.cadastro{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.errors{
+    position: fixed;
+    top: 50px;
+    background-color: rgb(253, 187, 187);
+    color: red;
+    width: 600px;
+}
+
+.success{
+    position: fixed;
+    top: 50px;
+    background-color: rgb(187, 253, 189);
+    color: rgb(34, 113, 5);
+    width: 600px;
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Work+Sans:ital,wght@1,300&display=swap');
+body{
+    align-items: baseline;
+    display: inline;
+}
+
+nav{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo{
+    margin-right: 10px
+}
+
+.logo img {
+    height: 50px; /* Ajuste a altura conforme necessário */
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li{
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Cor do texto */
+    font-weight: bold; /* Negrito */
+    transition: color 0.3s; /* Transição suave da cor ao passar o mouse */
+    font-size: 30px;
+}
+
+nav a:hover {
+    color: #20cd8d; /* Cor do texto ao passar o mouse */
+}
+
